@@ -26,6 +26,7 @@ single_cycle_top
 
 ## Module Hierarchy
 
+```
 single_cycle_top
 └── Single_Cycle_Core
 ├── Core_Datapath
@@ -42,12 +43,13 @@ single_cycle_top
 │ └── ALUDecoder
 ├── Instruction_Memory
 └── Data_mem
+```
 
 ---
 
 ## Top-Level Module (`single_cycle_top`)
 
-**Purpose**  
+**Purpose**
 System integration module connecting the processor core with instruction and data memories.
 
 **Key Features**
@@ -60,7 +62,7 @@ System integration module connecting the processor core with instruction and dat
 
 ## Core Datapath (`Core_Datapath`)
 
-**Purpose**  
+**Purpose**
 Implements instruction execution and data movement.
 
 **Key Features**
@@ -75,7 +77,7 @@ Implements instruction execution and data movement.
 
 ## Control Unit (`Control_unit`)
 
-**Purpose**  
+**Purpose**
 Generates control signals based on instruction opcode and function fields.
 
 **Responsibilities**
@@ -171,3 +173,7 @@ JAL
 - Not synthesis-optimized
 
 ---
+
+```
+
+```
