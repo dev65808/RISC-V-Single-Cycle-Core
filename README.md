@@ -22,32 +22,26 @@ All instructions complete in **one clock cycle**, prioritizing simplicity over p
 Top module:
 single_cycle_top
 
-yaml
-Copy code
-
 ---
 
 ## Module Hierarchy
 
 single_cycle_top
-├── Single_Cycle_Core
-│ ├── Core_Datapath
-│ │ ├── PC
-│ │ ├── Pc_Plus_4
-│ │ ├── PC_Mux
-│ │ ├── REG_MEM_BLOCK
-│ │ ├── Extend
-│ │ ├── ALU_Mux
-│ │ ├── ALU
-│ │ └── Result_Mux
-│ └── Control_unit
+└── Single_Cycle_Core
+├── Core_Datapath
+│ ├── PC
+│ ├── Pc_Plus_4
+│ ├── PC_Mux
+│ ├── REG_MEM_BLOCK
+│ ├── Extend
+│ ├── ALU_Mux
+│ ├── ALU
+│ └── Result_Mux
+├── Control_unit
 │ ├── Main_Decoder
 │ └── ALUDecoder
 ├── Instruction_Memory
 └── Data_mem
-
-yaml
-Copy code
 
 ---
 
