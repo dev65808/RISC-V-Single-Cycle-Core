@@ -162,18 +162,3 @@ LUI, AUIPC
 ### J-Type
 
 JAL
-
----
-
-## Design Notes (Be Honest)
-
-- Single-cycle design → **inefficient but simple**
-- No pipelining, no hazard handling
-- Intended for **learning**, not performance
-- Not synthesis-optimized
-
----
-
-```
-
-```
