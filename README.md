@@ -5,6 +5,10 @@ The processor integrates datapath, control unit, instruction memory, and data me
 
 ---
 
+## Datapath with ALU Control
+
+![Datapath with ALU Control](docs/datapath_alu_control.png)
+
 ## System-Level Architecture
 
 The top-level system integrates:
